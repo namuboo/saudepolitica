@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Saúde Política</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="logo1.png" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <style>
+        .bg-fernanda1 {
+            background-image: url("paper.jpg");
+        }
+
+        .bg-fernanda2 {
+            background-image: url("paper.jpg");
+            color: #ec5a5d;
+        }
+
+        .img-logo {
+            max-width: 36vw;
+            margin-bottom: 1vw;
+        }
+
+        .img-logo1 {
+            max-width: 5vw;
+            margin-bottom: 0vw;
+        }
+
+        .img-logo2 {
+            max-width: 18vw;
+            margin-bottom: 2vw;
+        }
+
+        .img-candidato {
+            max-width: 20vw;
+
+        }
+
+        th,
+        td {
+            text-align: center;
+        }
+
+        .propostas-item {
+            text-decoration: none;
+            color: black;
+        }
+
+        .propostas-item:hover {
+            color: #ec5a5d;
+        }
+
+        .partido,
+        .numero {
+            width: 18vw;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#!">
+                <img src="logo1-cut.png" alt="" class="img-logo1"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="listagem.html">Candidatos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="podcast.html">Podcast</a></li>
+                    <li class="nav-item"><a class="nav-link" href="creditos.html">Créditos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="py-5 bg-fernanda1">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-10">
+                    <div class="text-center my-5">
+                        <img src="logo-cut.png" alt="" class="img-logo">
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-5 bg-dark">
+        <div class="container px-5">
+        </div>
+    </section>
+    <main>
+        <div class="row justify-content-md-center">
+            <div class="col-1" style="background-color: #212529;">
+
+            </div>
+            <div class="col-10">
+                <table class="tb-cand table table-striped">
+                    <thead>
+                        <tr class="main-cand" style="background-color: #212529; color: gray;">
+                            <td class="candidato">
+                                <b>Candidato</b>
+                            </td>
+                            <td class="partido">
+                                <b>Partido</b>
+                            </td>
+                            <td class="propostas">
+                                <b>Propostas para Saúde</b>
+                            </td>
+                            <td class="numero">
+                                <b>Número eleitoral</b>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="felipedavila">
+                            <th class="candidato-felipe">
+                                <figure>
+                                    <img src="felipe.jpg" alt="Candidato Felipe D'Ávila"
+                                        class="img-candidato img-felipe rounded float-start">
+                                    <figcaption class="felipe-nome figure-caption text-end">Luiz Felipe Chaves D'Ávila
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-felipe">
+                                <p>NOVO</p>
+                            </th>
+                            <th class="propostas-felipe">
+                                <a href="felipedavila.html" class="propostas-item ">
+                                    Clique para as propostas de Felipe D'Ávila.
+                                </a>
+                            </th>
+                            <th class="numero-felipe">
+                                <p>30</p>
+                            </th>
+                        </tr>
+                        <tr class="lula">
+                            <th class="candidato-lula">
+                                <figure>
+                                    <img src="lula.jpg" alt="Candidato Lula da Silva"
+                                        class="img-candidato img-lula rounded float-start">
+                                    <figcaption class="lula-nome figure-caption text-end">Luiz Inácio Lula da Silva
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-lula">
+                                <p>Partido Trabalhista</p>
+                            </th>
+                            <th class="propostas-lula">
+                                <a href="lula.html" class="propostas-item ">
+                                    Clique para as propostas de Lula.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    13
+                                </p>
+                            </th>
+                        </tr>
+                        <tr class="leopericles">
+                            <th class="candidato-leopericles">
+                                <figure>
+                                    <img src="leopericles.jpg" alt="Candidato Léo Péricles"
+                                        class="img-candidato img-leopericles rounded float-start">
+                                    <figcaption class="leopericles-nome figure-caption text-end">Leonardo Péricles
+                                        Vieira Roque
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-leopericles">
+                                <p>União Popular</p>
+                            </th>
+                            <th class="propostas-leopericles">
+                                <a href="leopericles.html" class="propostas-item ">
+                                    Clique para as propostas de Léo Péricles.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    80
+                                </p>
+                            </th>
+                        </tr>
+                        <tr class="sofia">
+                            <th class="candidato-sofia">
+                                <figure>
+                                    <img src="sofia.jpg" alt="Candidata Sofia"
+                                        class="img-candidato img-sofia rounded float-start">
+                                    <figcaption class="sofia-nome figure-caption text-end">Sofia Padua Manzano
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-bolsonaro">
+                                <p>Partido Comunista Brasileiro</p>
+                            </th>
+                            <th class="propostas-sofia">
+                                <a href="sofia.html" class="propostas-item ">
+                                    Clique para as propostas de Sofia Manzano.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    21
+                                </p>
+                            </th>
+                        </tr>
+                        <tr class="veralucia">
+                            <th class="candidato-veralucia">
+                                <figure>
+                                    <img src="veralucia.jpg" alt="Candidata Vera Lúcia"
+                                        class="img-candidato img-veralucia rounded float-start">
+                                    <figcaption class="veralucia-nome figure-caption text-end">Vera Lúcia Pereira da
+                                        Silva Salgado
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-veralucia">
+                                <p>Partido Socialista dos<br>Trabalhadores Unificado</p>
+                            </th>
+                            <th class="propostas-veralucia">
+                                <a href="veralucia.html" class="propostas-item ">
+                                    Clique para as propostas de Vera Lúcia.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    16
+                                </p>
+                            </th>
+                        </tr>
+                        <tr class="pablo">
+                            <th class="candidato-pablo">
+                                <figure>
+                                    <img src="pablo.jpg" alt="Candidato Pablo Marçal"
+                                        class="img-candidato img-pablo rounded float-start">
+                                    <figcaption class="pablo-nome figure-caption text-end">Pablo Henrique Costa Marçal
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-pablo">
+                                <p>Partido Republicano da<br>Ordem Social</p>
+                            </th>
+                            <th class="propostas-pablo">
+                                <a href="pablo.html" class="propostas-item ">
+                                    Clique para as propostas de Pablo Marçal.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    90
+                                </p>
+                            </th>
+                        </tr>
+                        <tr class="cirogomes">
+                            <th class="candidato-cirogomes">
+                                <figure>
+                                    <img src="cirogomes.jpg" alt="Candidato Ciro Gomes"
+                                        class="img-candidato img-cirogomes rounded float-start">
+                                    <figcaption class="cirogomes-nome figure-caption text-end">Ciro Ferreira Gomes
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-cirogomes">
+                                <p>Partido Democrático Trabalhista</p>
+                            </th>
+                            <th class="propostas-cirogomes">
+                                <a href="cirogomes.html" class="propostas-item ">
+                                    Clique para as propostas de Ciro Gomes.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    12
+                                </p>
+                            </th>
+                        </tr>
+                        <tr class="roberto">
+                            <th class="candidato-roberto">
+                                <figure>
+                                    <img src="roberto.jpg" alt="Candidato Roberto Jefferson"
+                                        class="img-candidato img-roberto rounded float-start">
+                                    <figcaption class="roberto-nome figure-caption text-end">Roberto Jefferson Monteiro
+                                        Francisco
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-roberto">
+                                <p>Partido Trabalhista Brasileiro</p>
+                            </th>
+                            <th class="propostas-roberto">
+                                <a href="roberto.html" class="propostas-item ">
+                                    Clique para as propostas de Roberto Jefferson.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    14
+                                </p>
+                            </th>
+                        </tr>
+                        <tr class="simone">
+                            <th class="candidato-simone">
+                                <figure>
+                                    <img src="simone.jpg" alt="Candidato Simone"
+                                        class="img-candidato img-simone rounded float-start">
+                                    <figcaption class="simone-nome figure-caption text-end">Simone Nassar Tebet
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-simone">
+                                <p>Movimento Democrático Brasileiro</p>
+                            </th>
+                            <th class="propostas-simone">
+                                <a href="simone.html" class="propostas-item ">
+                                    Clique para as propostas de Simone Tebet.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    15
+                                </p>
+                            </th>
+                        </tr>
+                        <tr class="soraya">
+                            <th class="candidato-soraya">
+                                <figure>
+                                    <img src="soraya.jpg" alt="Candidata Soraya"
+                                        class="img-candidato img-soraya rounded float-start">
+                                    <figcaption class="soraya-nome figure-caption text-end">Soraya Vieira Thronicke
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-soraya">
+                                <p>UNIÃO</p>
+                            </th>
+                            <th class="propostas-soraya">
+                                <a href="soraya.html" class="propostas-item ">
+                                    Clique para as propostas de Soraya Thronicke.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    44
+                                </p>
+                            </th>
+                        </tr>
+                        <tr class="bolsonaro">
+                            <th class="candidato-bolsonaro">
+                                <figure>
+                                    <img src="bolsonaro.jpg" alt="Candidato Bolsonaro"
+                                        class="img-candidato img-bolsonaro rounded float-start">
+                                    <figcaption class="bolsonaro-nome figure-caption text-end">Jair Messias Bolsonaro
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-bolsonaro">
+                                <p>Partido Liberal</p>
+                            </th>
+                            <th class="propostas-bolsonaro">
+                                <a href="bolsonaro.html" class="propostas-item ">
+                                    Clique para as propostas de Bolsonaro.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    22
+                                </p>
+                            </th>
+                        </tr>
+                        <tr class="eymael">
+                            <th class="candidato-eymael">
+                                <figure>
+                                    <img src="eymael.jpg" alt="Candidato Eymael"
+                                        class="img-candidato img-eymael rounded float-start">
+                                    <figcaption class="eymael-nome figure-caption text-end">José Maria Eymael
+                                    </figcaption>
+                                </figure>
+                            </th>
+                            <th class="partido-eymael">
+                                <p>Democracia Cristã</p>
+                            </th>
+                            <th class="propostas-eymael">
+                                <a href="eymael.html" class="propostas-item ">
+                                    Clique para as propostas de José Eymael.
+                                </a>
+                            </th>
+                            <th>
+                                <p>
+                                    27
+                                </p>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-1" style="background-color: #212529;">
+
+            </div>
+        </div>
+    </main>
+    <section class="py-5 bg-dark">
+        <div class="container px-5">
+        </div>
+    </section>
+    <footer class="py-5 bg-fernanda2">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-10">
+                    <div class="my-5">
+                        <img src="logo1-cut.png" alt="" class="img-logo2 float-end">
+                        <div class="d-grid gap-3 d-sm-flex float-start" style="font-size: 2vw; margin-top: 3vw;">
+                            <b>Website por Ana Clara Sartori De Luca e <br>Fernanda Micaela dos Santos da Siva</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
